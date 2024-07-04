@@ -1,0 +1,7 @@
+!pip install ydata-profiling
+
+from ydata_profiling import ProfileReport
+
+profile = x.profile_report(title='Pandas Profiling Report') 
+
+profile.to_file("Assignment.html")
